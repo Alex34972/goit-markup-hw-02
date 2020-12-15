@@ -5,7 +5,7 @@
   --white-main-color: #ffffff;
   --dark-secondari-color: #757575;
   --accent-color: #2196f3;
-  --basik-font: Roboto;
+  --basik-font:Roboto;
 }
 
 .logo {
@@ -61,22 +61,30 @@ body {
   background: var(--main-beckground-color);
   color: var(--dark-secondari-color);
 }
+.hero{ background: var(--sub-beckground-color);}
 
-.hero {
+.hero-text{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  background: var(--sub-beckground-color);
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--white-main-color);
+  text-transform: uppercase
 }
-.button-hero {
-  font-family: inherit;
+.button-hero{
+  font-family:inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   background: #2196f3;
   color: var(--white-main-color);
 }
+
 .btn-portfolio {
   font-family: inherit;
   font-weight: 500;
@@ -99,6 +107,12 @@ h2 {
   line-height: 1.17;
   color: var(--dark-main-color);
 }
+.studio-edge>h3{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--dark-main-color);}
 h3 {
   font-weight: bold;
   font-size: 14px;
